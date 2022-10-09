@@ -8,7 +8,7 @@ import pandas as pd
 import xlwt
 from sklearn.datasets import load_wine
 wine = load_wine()
-file_location = "./list20.xls"
+file_location = "./list.xls"
 data = xlrd.open_workbook(file_location)
 sheet = data.sheet_by_index(0)
 

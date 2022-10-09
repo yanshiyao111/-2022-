@@ -202,4 +202,4 @@ while i < 90:
 if __name__ == '__main__':
     dataframe = pd.DataFrame(stu)
     print(dataframe)
-    dataframe.to_excel('list20.xls')
+    dataframe.to_excel('list.xls')
