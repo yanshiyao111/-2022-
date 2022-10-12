@@ -72,7 +72,7 @@ def call_once(stu):
     while j < 20:
         j=j+1
         k = i
-        i = i + 10
+        i = i + 45
         while k < i and k < 90:
             if stu[k][j + 2] == 0:
                 absense.append([])
@@ -80,7 +80,7 @@ def call_once(stu):
                 absense_count = absense_count + 1
                 ecount = ecount + 1
             k = k + 1
-        count = count + 10
+        count = count + 45
 
         if float(absense_count / i) > 6.5 / 90:
             while cnt < absense_count:
